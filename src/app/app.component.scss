@@ -1,0 +1,18 @@
+.uno {
+    color: blue;
+    background: rgba(38, 128, 15, 0.767);
+}
+.container {
+    width: 150px;
+    height: 150px;
+}
+
+.app--container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    .app__routes {
+        flex-grow: 1;
+    }
+}

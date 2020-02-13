@@ -1,0 +1,34 @@
+//- button#uno jbiwbuedobn
+//- button.but#but2(mat-fab,(click)="onClick()",mat-button-toggle) HOLA
+//- matt-button-toggle(value="right",aria-label="Text align center")
+//- button(mat-mini-fab )
+//- button(mat-icon-button, color="primary", background="red") d
+//- button(mat-stroked-button, color="primary") primary
+//- ol
+//-   li
+//-     mat-form-filed
+//-       mat-label
+//-       input(type="text",matInput [(ngModel)]="name")
+//-   li
+//-     button(mat-raised-button, (click)="openDialog()")
+
+//- mat-drawer-container(class="example-container")
+//-   mat-drawer(#drawer, mode="side") I'm a drawer
+//-   mat-drawer-content
+//-     button(mat-raised-button, (click)="drawer.toggle()") Toggle drawer
+
+//- p Button is for play
+//-   button(mat-raised-button color="primary" matBadge="8" matBadgePosition="before" matBadgeColor="accent") A cara perro
+//- p Icon with a badge
+//-   mat-icon(matBadge="15", matBadgeColor="warn") wasi
+//-     span
+.app--container
+  mat-toolbar(color='warn')
+    mat-toolbar-row
+      span Custom Toolbar
+      a(routerLink="/home" mat-raised-button) Home
+      a(routerLink="/contacto" mat-raised-button) Contacto
+      button(mat-icon-button)
+        mat-icon close
+  .app__routes
+    router-outlet
